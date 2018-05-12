@@ -37,8 +37,14 @@ Middle Node.JS Developer.
 * Приложение должно быть оформлено в виде модуля. Возможность установки модуля с помощью npm будет преимуществом.
 
 ## Installation
-
+`npm i array-converter`
 ## Usage
+```
+const arrayConverter = require("array-converter");
 
+arrayConvertert.convert([1, 2, 3]).then((res) => {
+  console.log(res); // '1-3'
+});
+```
 ## Tests
 `npm test`
