@@ -96,4 +96,12 @@ describe("array-converter", function() {
 			done();
 		});
 	});
+
+	describe("array-converter module", function () {
+		it('should return a Promise', () => {
+			const arrayConvertReturnValue = arrayConverter.convert([]);
+			expect(arrayConvertReturnValue.then).to.be.a('Function');
+			expect(arrayConvertReturnValue.catch).to.be.a('Function')
+		});
+	})
 });
