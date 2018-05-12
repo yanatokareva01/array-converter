@@ -1,0 +1,23 @@
+{
+  "name": "array-converter",
+  "version": "0.1.0",
+  "description": "Finds sequences in array and converts them to a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanatokareva01/array-converter.git"
+  },
+  "author": "Tokareva Yana <yanatokareva01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanatokareva01/array-converter/issues"
+  },
+  "homepage": "https://github.com/yanatokareva01/array-converter#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
